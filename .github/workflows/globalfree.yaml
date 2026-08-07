@@ -14,7 +14,7 @@ on:
   # 定时触发工作流程
   schedule:
     # UTC 16点30分(北京时间 0:30)
-    - cron: 30 16 * * *
+    - cron: 30 18 * * *
   # 标星时触发工作流程
   watch:
     types: [started]
